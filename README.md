@@ -84,11 +84,6 @@ a{color:var(--blue-700);text-decoration:none;}
       </select>
     </div>
   </div>
-  <div class="auth-actions">
-    <button class="btn ghost" id="btnLogin">Login</button>
-    <button class="btn" id="btnRegister">Create Account</button>
-  </div>
-</div>
 
 <!-- HERO -->
 <header class="hero">
@@ -118,9 +113,11 @@ a{color:var(--blue-700);text-decoration:none;}
 <!-- ABOUT -->
 <section id="about">
   <h2>About BridgeVest Global</h2>
-  <p class="muted">We transform agriculture and real estate into transparent, high-yielding opportunities via a tech-driven ecosystem.</p>
-  <p class="small muted"><strong>Vision:</strong> Accessible & profitable investment classes. <br>
-  <strong>Mission:</strong> Bridge capital to opportunity. <br>
+  <p class="muted">BridgeVest Global is a diversified asset management company transforming agriculture and real estate into transparent, high-yielding opportunities through a technology-driven ecosystem.
+Our integrated model merges human expertise, AI forecasting, and blockchain transparency, enabling individuals, institutions, and partners to invest confidently in real, income-generating assets — from fertile plantations to urban developments.</p>
+  <p class="small muted"><strong>Vision:</strong> To make agriculture and real estate the world’s most accessible, trusted, and profitable investment classes.
+To democratize access to opportunities that drive food security, housing, and sustainable wealth globally.<br>
+  <strong>Mission:</strong>To bridge people from capital to opportunity, turning ordinary savings into growth through innovation, integrity, and expert management, connecting sustainable assets with smart financial technology.<br>
   <strong>Motto:</strong> “Building Wealth, Securing Futures.”</p>
 </section>
 
@@ -130,18 +127,18 @@ a{color:var(--blue-700);text-decoration:none;}
   <div class="grid-3">
     <div class="card">
       <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Director 1">
-      <h4>John Doe</h4>
+      <h4>Donald Johnson</h4>
       <div class="small muted">CEO</div>
     </div>
     <div class="card">
       <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Director 2">
-      <h4>Jane Smith</h4>
+      <h4>Janeth Smith</h4>
       <div class="small muted">CFO</div>
     </div>
     <div class="card">
       <img src="https://randomuser.me/api/portraits/men/55.jpg" alt="Director 3">
-      <h4>Michael Lee</h4>
-      <div class="small muted">COO</div>
+      <h4>Michael Leonard</h4>
+      <div class="small muted">Acounting Officer</div>
     </div>
   </div>
 </section>
@@ -162,13 +159,16 @@ a{color:var(--blue-700);text-decoration:none;}
   <div class="grid-3">
     <div class="card">
       <h4>Agriculture Investment</h4>
-      <p class="muted">Invest across plantations and processing.</p>
+      <p class="muted">At BridgeVest, we connect investors with real agricultural assets through structured participation across global agricultural value chains.
+Your investment serves as the seed managed by our professionals to yield measurable growth.
+Become a farmer today, without being on the farm.</p>
       <button class="btn" onclick="backendCall('AgriViewPlans')">View Plans</button>
       <button class="btn ghost" onclick="backendCall('AgriRentLand')">Rent a Land</button>
     </div>
     <div class="card">
       <h4>Real Estate Investment</h4>
-      <p class="muted">Property leasing & estate development.</p>
+      <p class="muted">“Building Today, Profiting Tomorrow.”
+Join global real estate projects from property leasing to construction and estate development without managing a single site yourself.</p>
       <button class="btn" onclick="backendCall('RealEstatePlans')">View Plans</button>
       <button class="btn ghost" onclick="backendCall('RentBuild')">Rent & Build</button>
     </div>
